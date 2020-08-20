@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilosPagWeb.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <a class="volver" href="#portafolio">Volver Arriba</a>
+
+    <section class="portafolio">
+        <a name="portafolio" id="inicio"></a>
+       
+        <div class="contenedor">
+
+            <div class="bloque button" >
+                <a href="#servicio"><p class="inicio-opcion" style=" color: black ">Servicio</p></a>
+            </div >
+            <div class="bloque button">
+                <a href="#quienesSomos"><p class="inicio-opcion"  style=" color: black ">Quienes Somos?</p></a>
+            </div>
+            <div class="bloque button">        
+                <a href="#equipo"><p class="inicio-opcion"  style=" color: black ">Equipo</p></a>                
+            </div>
+            <div class="bloque button">        
+                <a href="#Contacto"><p class="inicio-opcion"  style=" color: black ">Contacto</p></a>                
+            </div>       
+
+        </div> 
+            <div class="contenedor2">            
+                    
+                    <div>
+                        <img class="compus" src="Imagenes/compus.jpg" alt="">
+                    </div>
+                            
+                        <div class="fondo2">                    
+                            <h1 class="tup" >TUPtech</h1>
+                            <p class="texto">TUPtech es una empresa dedidaca al desarrollo de software , de cual 
+                                nos encargamos de desarrollar aplicaciones web , sitios web y aplicaciones 
+                                escritorio , siguiendo los requeriemientos que el cliente necesite.</p>                                    
+                    </div>
+                    </div>
+        
+    </section>
+    <h1>
+        Nuestros Servicios          
+    </h1>
+    <section class="servicio" style="background-image: url('Imagenes/ManosTeclado3.jpg'); background-repeat: no-repeat ;" >
+        <a name="servicio" id="Servicios"></a>
+       
+       <div class="apps">
+        <img src="Imagenes/ap-escritorio.jpg" class='app'/>
+        <img src="Imagenes/ManosTeclado2.jpg" class='app'/>
+        <img src="Imagenes/pagweb.jpg" class='app'/>
+    </div>
+            <div class="hijo1"><h2 class="appcolor1">Aplicaciones <br/> de Escritorio</h2>
+            </div>
+            <div class="hijo2"><h2 class="appcolor2">Aplicaciones  <br/> Moviles</h2>
+         </div>
+         <div class="hijo3"><h2 class="appcolor3">Paginas Web</h2>
+         </div>        
+       
+      
+    </section>
+    <section class="quienesSomos">
+        <a name="quienesSomos" id="Somos"></a>
+        <div class="somos">
+            <h1>Quienes Somos?</h1>
+        </div> 
+       <video class="video" src="Imagenes/One Piece「AMV」- Blood __ Water.mp4" controls></video>              
+    </section>
+    <section class="equipo">
+        <a name="equipo" id="team"></a>
+        <div>
+            <h1>equipo</h1>
+        </div>   
+        <div class="flexslider">
+            <ul class="slides">
+    
+                <li>
+                    <img src="Imagenes/Luciano.jfif" alt="">
+                    <section class="caption">
+                        <h2 style="color: white;">Mi nombre es Luciano, tengo 20 años. Soy programador y me encargo de la parte de "FrontEnd" de la empresa</h2>
+                    </section>
+                </li>
+    
+                <li>
+                    <img src="Imagenes/pagweb.jpg" alt="">
+                    <section class="caption">
+                        <h2 style="color: white;">Lorem slider #2</h2>
+                    </section>
+                </li>
+    
+                <li>
+                    <img src="Imagenes/ap-escritorio.jpg" alt="">
+                    <section class="caption">
+                        <h2>Lorem slider #3</h2>
+                    </section>
+                </li>
+                <li>
+                    <img src="Imagenes/ManosTeclado.jpg" alt="">
+                    <section class="caption">
+                        <h2>Lorem slider #3</h2>
+                    </section>
+                </li>
+            </ul>
+        </div>         
+    </section>
+    <section class="contacto">
+        <a name="Contacto" id="Contacto"></a>
+        
+        <h1 style="  text-align: center;     ">Contacto</h1>
+        <div class="contenedor">
+         
+        
+            <div class="formulario">
+        
+            <h3>Realizanos alguna consulta por mail: </h3>
+               
+            <form action="/action_page.php">
+              <label for="fname" >Nombre:</label><br>
+              <input type="text" id="fname" name="fname"><br>
+              <label for="lname">Email:</label><br>
+              <input type="text" id="lname" name="lname"><br>
+              <label for="lname">Telefono:</label><br>
+              <input type="text" id="lname" name="lname"><br>
+          
+             <br>
+             <label for="Tematicas" >Elija una tematica:</label>
+             <select id="tematicas" name="tematicas">
+               <option value="aplicacion Web">Aplicacion Web</option>
+               <option value="aplicacion de Escritorio">Aplicacion de Escritorio</option>
+               <option value="sitios Web">Sitios Web</option>
+               <option value="otros">Otros</option>
+             </select><br>
+             <p >Contanos sobre que necesitas ayuda: </p>
+             
+             <textarea class="casilla" name="message" rows="10" cols="30"></textarea>
+        
+             <br>
+        
+              <input class="input" type="submit" value="Enviar Consulta">
+            </form>
+            
+        </div>
+        <div class="mapa" id="mapa">
+            <iframe style="border-color: black;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.5833483693677!2d-58.98122778488567!3d-27.451092822484167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450cf0c84f0753%3A0x512936482d58a4a7!2sUTN%20-%20Facultad%20Regional%20Resistencia!5e0!3m2!1ses-419!2sar!4v1597533349885!5m2!1ses-419!2sar"></iframe>
+        <div> 
+                <img class="face" src="Imagenes/facebook.png" alt="">
+                <img class="insta" src="Imagenes/insta.jfif" alt="">
+                <img class="twitter" src="Imagenes/twitter.jfif" alt="">
+                <img class="gmail" src="Imagenes/gmail.jfif" alt="">
+        </div>
+        </div>
+        </div>
+            
+    </section>
+
+</body>
+</html>
